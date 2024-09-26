@@ -65,7 +65,7 @@ jobs:
     needs: dockerBuildPush
     environment:
       name: prod
-      url: https://{your_prefix}-api.azurewebsites.net/
+      url: https://a3ew3wpp3vqg2-api.azurewebsites.net/
     
     steps:
     - uses: actions/checkout@v4
