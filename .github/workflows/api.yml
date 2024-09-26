@@ -1,6 +1,4 @@
 name: API Deployment
-on:
-  workflow_dispatch:
   
 env:
   registryName: a3ew3wpp3vqg2cosureg.azurecr.io
